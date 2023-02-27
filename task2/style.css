@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+h1{
+  color: rgb(165, 8, 165) !important;
+  
+}
 table{
     margin: 5vh;
     width: 30vw;
@@ -23,12 +26,12 @@ td, th{
 
 #submit{
     flex-direction: column;
-    align-items: flex-end;
+    padding: 1vh;
+    justify-content: space-around;
+    background-color: rgb(255, 212, 255);
 }
 footer{
-    background-color: rgb(126, 220, 252);
-    border: 1px solid violet;
-    display: flex;
+    background-color: rgb(255, 125, 78);
 }
 #logoFB, #logoIG, #logoWSP{
     width: 5vh;
@@ -36,6 +39,7 @@ footer{
 }
 body {
     padding-bottom: 20px;
+    background-color: rgb(252, 170, 227);
   }
   
   .navbar {
@@ -47,7 +51,6 @@ body {
     color: blueviolet !important;
   }
   .navbar{
-    color: blue !important;
     background-color: rgb(238, 168, 255) !important;
   }
   .form-check{
@@ -57,9 +60,15 @@ body {
     color: blueviolet;
   }
   main{
-    padding: 5vh 10vh !important;
+    padding: 5vh 5vh !important;
     justify-content: space-between !important;
-  }
-  @media only screen and (max-width: 576px){
+    align-items: center; 
   }
 
+  @media only screen and (max-width: 576px){
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
